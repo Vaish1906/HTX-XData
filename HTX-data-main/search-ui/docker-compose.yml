@@ -1,0 +1,8 @@
+services:
+  search_ui:
+    container_name: search_ui
+    build:
+      context: ./app-search-reference-ui-react-master
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
